@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="recursos/img/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--inicio de la cabecera  -->
+
+    <header id="header">
+        <div id="logotipo">
+            <img src="recursos/img/logo.png" alt="Logotipo">
+        </div>
+
+        <h1>
+            <a href="index.html">
+                Master en CSS
+            </a>
+        </h1>
+
+    </header>
+    <!-- fin de la cabecera -->
+
+    <!-- Inicio del menu -->
+    <nav id="menu">
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Contenido</a>
+            </li>
+            <li>
+                <a href="#">Requerimientos</a>
+            </li>
+            <li>
+                <a href="#">Lenguajes</a>
+                <ul>
+                    <li>
+                        <a href="#">CSS</a>
+                    </li>
+                    <li>
+                        <a href="#">Javascript</a>
+                    </li>
+                    <li>
+                        <a href="#">C</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Frameworks</a>
+                <ul>
+                    <li>
+                        <a href="#">LESS</a>
+                    </li>
+                    <li>
+                        <a href="#">SASS</a>
+                    </li>
+                    <li>
+                        <a href="#">Bootstrap 4</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Proyectos</a>
+            </li>
+            <li>
+                <a href="#">Instructor</a>
+            </li>
+            <li>
+                <a href="#">Reseñas</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+
+    </nav>
+    <!-- fin del menu -->
+
+    <!-- INICIO SECCION CENTRAL -->
+    <div id="content">
+
+        <!--  BARRA LATERAL -->
+        <aside id="aside">
+            <div class="widget" id="login">
+                <h3>Ingresar a la web</h3>
+                <form>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" name="usuario">
+
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="contraseña">
+
+                    <input type="submit" value="Entrar">
+                </form>
+
+                <!--Los enlacaes fuera del formulario porque no tiene sentido que esten ahi, no modifica nada, no es necesario  -->
+                <a href="#">Alumnos</a>
+                <a href="#">Profesores</a>
+                <a href="#">Calificaciones</a>
+            </div>
+
+            <div class="widget">
+                <h3 class="blue">Aula virtual comision "A"</h3>
+                <form>
+                    <label for="usuarioaula1">Nombre de usuario:</label>
+                    <input type="text" name="usuarioaula1">
+
+                    <label for="contraseñaaula1">Contraseña:</label>
+                    <input type="password" name="contraseñaaula1">
+
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+            <div class="widget">
+                <h3 class="red">Aula virtual comision "B"</h3>
+                <form>
+                    <label for="usuarioaula2">Nombre de usuario:</label>
+                    <input type="text" name="usuarioaula2">
+
+                    <label for="contraseñaaula2">Contraseña:</label>
+                    <input type="password" name="contraseñaaula2">
+
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+
+            <div class="widget">
+                <h3>Enlaces de interes</h3>
+                <ul>
+                    <li>
+                        <a href="#">Master en Javascript</a>
+                    </li>
+                    <li>
+                        <a href="#">Master en PHP</a>
+                    </li>
+                    <li>
+                        <a href="#">Master en web full-stack</a>
+                    </li>
+                    <li>
+                        <a href="#">Master en framework JS</a>
+                    </li>
+                    <li>
+                        <a href="#">Curso de git y comandos linux</a>
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
+        <!-- FIN BARRA LATERAL -->
+
+        <!-- INICIO DE LAS SECCIONES -->
+        <div id="sections">
+            <section id="frontend">
+                <span class="stickers">
+                    <img class="stickerOne" src="recursos/img/scotch.png" alt="pegatina">
+                    <img class="stickerTwo" src="recursos/img/scotch.png" alt="pegatina">
+                </span>
+                <h2 class="titulo">Noticias sobre Front-End</h2>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+            </section>
+            <section id="backend">
+                <span class="stickers">
+                    <img class="stickerOne" src="recursos/img/scotch.png" alt="pegatina">
+                    <img class="stickerTwo" src="recursos/img/scotch.png" alt="pegatina">
+                </span>
+                <h2 class="titulo red">Noticias sobre Back-End</h2>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+            </section>
+            <section id="cienciaDatos">
+                <span class="stickers">
+                    <img class="stickerOne" src="recursos/img/scotch.png" alt="pegatina">
+                    <img class="stickerTwo" src="recursos/img/scotch.png" alt="pegatina">
+                </span>
+                <h2 class="titulo yellow">Noticias sobre Ciencia de datos</h2>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+                <article class="article">
+                    <span class="icon"  >b</span>
+                    <p>
+                        <a href="">Titulo de entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo
+                        neque porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+                    </p>
+                    <span class="date">[28-02-2021. Fernando Guarini]</span>
+                </article>
+            </section>
+
+            
+            <div id="history">
+                <a href="">[Ver historial de noticias]</a>
+            </div>
+            
+            
+        </div>
+        
+        <!-- FRASE DEL DIA -->
+        <aside id="frase">
+            Frase del dia: <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo urna magna, id commodo neque
+            porttitor id. In vestibulum nibh in felis rutrum, eget aliquam nunc imperdiet.
+            <a href="#">Leer mas frases</a>
+        </aside>
+        <!--FIN FRASE DEL DIA  -->
+        
+        <div class="clearfix"></div>
+
+    </div>
+    <!-- FIN SECCION CENTRAL -->
+
+    <footer id="footer">
+        <p>Desarrollado por Fernando Guarini</p>
+        <p>Mas contenido en <a href="https://github.com/Guaro917">Mi Github</a></p>
+    </footer>
+
+    <!-- fix para Chrome al abrir la pagina en las transiciones y animaciones -->
+    <script>
+    </script>
+</body>
+
+</html>
